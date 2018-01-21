@@ -20,7 +20,7 @@ import "../styles/main.sass"
 const linkStyle = css({ float: `right` })
 
 export default ({ children, data }) =>
-    <g.Div
+    <g.Div>
     <ThalLoader>
       <div className='headtastic'>
         <div className='portal'>
