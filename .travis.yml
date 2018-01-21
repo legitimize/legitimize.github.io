@@ -1,0 +1,48 @@
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+      services:
+      - docker
+      cache:
+        directories:
+        - $HOME/.npm
+        - .git
+      env:
+        - builder=travis
+# Possible os x support in the future
+    #- os: osx
+    #  osx_image: xcode7.2
+
+language: node_js 
+node_js:
+  -stable
+
+addons:
+  apt:
+    packages:
+      - curl
+      - socat
+      - time
+
+before_install:
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then npm install -g gatsby-cli gh-pages; fi
+# Possible os x support in the future
+#  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update          ; fi
+
+script:
+  - /bin/bash -l -c "/usr/bin/time -v make -e ci"
+
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  local-dir: public
+  target-branch: master
+  fqdn: thalhalla.com
+  verbose: true
+  on:
+    branch: gatsby
