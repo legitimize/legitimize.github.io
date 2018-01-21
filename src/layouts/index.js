@@ -2,6 +2,16 @@ import React from "react"
 import g from "glamorous"
 import { css } from "glamor"
 import Link from "gatsby-link"
+import Loader from "halogen/PacmanLoader"
+
+
+var ThalLoader = React.createClass({
+  render: function() {
+    return (
+      <Loader color="#00FF00" size="16px" margin="4px"/>
+    );
+  }
+});
 
 import { rhythm } from "../utils/typography"
 
@@ -10,7 +20,8 @@ import "../styles/main.sass"
 const linkStyle = css({ float: `right` })
 
 export default ({ children, data }) =>
-    <g.Div>
+    <g.Div
+    <ThalLoader>
       <div className='headtastic'>
         <div className='portal'>
           <Link to={`/`}>
@@ -37,4 +48,3 @@ export const query = graphql`
     }
   }
 `
-
