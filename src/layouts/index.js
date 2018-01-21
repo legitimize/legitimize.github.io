@@ -21,7 +21,6 @@ const linkStyle = css({ float: `right` })
 
 export default ({ children, data }) =>
     <g.Div>
-    <ThalLoader>
       <div className='headtastic'>
         <div className='portal'>
           <Link to={`/`}>
