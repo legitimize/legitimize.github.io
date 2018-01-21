@@ -2,9 +2,9 @@ import React from "react";
 
 export default () => (
   <div>
-    <h1>About Hello World Tutorials for beginners</h1>
+    <h1>About Thalhalla </h1>
     <p>
-     We the site dedicated to getting you up and running with 3D as quickly as possible.
+	Thalhalla Gaming
     </p>
   </div>
 );
