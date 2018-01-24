@@ -32,6 +32,7 @@ before_install:
 #  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update          ; fi
 
 script:
+  - npm i 
   - /bin/bash -l -c "/usr/bin/time -v make -e ci"
 
 
