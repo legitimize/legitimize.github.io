@@ -2,16 +2,6 @@ import React from "react"
 import g from "glamorous"
 import { css } from "glamor"
 import Link from "gatsby-link"
-import Loader from "halogen/PacmanLoader"
-
-
-var ThalLoader = React.createClass({
-  render: function() {
-    return (
-      <Loader color="#00FF00" size="16px" margin="4px"/>
-    );
-  }
-});
 
 import { rhythm } from "../utils/typography"
 
@@ -31,7 +21,6 @@ export default ({ children, data }) =>
           <Link className={linkStyle} to={`/about/`}>
             About
           </Link>
-	<ThalLoader/>
         </div>
       </div>
       <div className='portal'>
