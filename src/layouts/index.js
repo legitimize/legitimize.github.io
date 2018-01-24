@@ -31,6 +31,7 @@ export default ({ children, data }) =>
           <Link className={linkStyle} to={`/about/`}>
             About
           </Link>
+	<ThalLoader/>
         </div>
       </div>
       <div className='portal'>

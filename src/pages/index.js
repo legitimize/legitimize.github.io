@@ -6,12 +6,21 @@ import { rhythm } from "../utils/typography"
 
 export default ({ data }) => {
   return (
-    <div>
-      <g.H1 display={"inline-block"} borderBottom={"1px solid"}>
+    <div className="ThalHeader">
+     <p>
+      <g.H1 display={"inline-block"} >
         <div className="myHeader">
-        List of posts
+	Welcome to Thalhalla!
         </div>
       </g.H1>
+     <p>
+     </p>
+      <g.H3 display={"inline-block"} border={"1px solid"}>
+        <div className="myNews">
+	News
+        </div>
+      </g.H3>
+     </p>
       <h4>
         {data.allMarkdownRemark.totalCount} Posts
       </h4>
