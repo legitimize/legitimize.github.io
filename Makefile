@@ -1,3 +1,6 @@
+d:
+	gatsby develop
+
 thalhalla: clean public
 	npm run deploy
 
