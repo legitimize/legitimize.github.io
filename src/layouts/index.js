@@ -2,6 +2,7 @@ import React from "react"
 import g from "glamorous"
 import { css } from "glamor"
 import Link from "gatsby-link"
+import hammerTime from "./hammerTime.png";
 
 import { rhythm } from "../utils/typography"
 
@@ -14,7 +15,7 @@ export default ({ children, data }) =>
       <div className='headtastic'>
         <div className='portal'>
           <Link to={`/`}>
-            <g.H3 marginBottom={rhythm(2)} display={`inline-block`}>
+            <g.H3 marginBottom={rhythm(0)} display={`inline-block`}>
               {data.site.siteMetadata.title}
             </g.H3>
           </Link>
@@ -22,6 +23,9 @@ export default ({ children, data }) =>
             About
           </Link>
         </div>
+      </div>
+      <div className='hammerTime'>
+        <img src={hammerTime} height="242" width="242" alt="Thalhammer" className='Thor-center' />
       </div>
       <div className='portal'>
         {children()}

@@ -1,3 +1,10 @@
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/WebHostingCoopTeam/hello3Dworld.png?columns=all)](https://waffle.io/WebHostingCoopTeam/hello3Dworld?utm_source=badge)
-# hello3Dworld
-Hello World in 3D
+# Thalhalla main site
+
+[![Build Status](https://travis-ci.org/Thalhalla/thalhalla.github.io.svg?branch=gatsby)](https://travis-ci.org/Thalhalla/thalhalla.github.io)
+
+
+This is a static render of the `gatsby` branch
+
+This is a site built using [gatsbyjs](https://www.gatsbyjs.org/)
+for [Thalhalla](http://thalhalla.com) a platform for spinning up 
+game servers.
