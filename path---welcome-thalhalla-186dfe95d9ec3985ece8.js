@@ -1,0 +1,2 @@
+webpackJsonp([30276882840998],{496:function(e,t){e.exports={data:{markdownRemark:{html:"<p>H3ll0 all and welcome to Legitimize, we'll start working on some of these projects over the next few weeks.</p>\n<p>Keep posted here for news.</p>",frontmatter:{title:"Welcome to Legitimize"}}},pathContext:{slug:"/welcome-thalhalla/"}}}});
+//# sourceMappingURL=path---welcome-thalhalla-186dfe95d9ec3985ece8.js.map

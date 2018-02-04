@@ -1,0 +1,52 @@
+{
+  "assetsByChunkName": {
+    "path---welcome-thalhalla": [
+      "path---welcome-thalhalla-186dfe95d9ec3985ece8.js",
+      "path---welcome-thalhalla-186dfe95d9ec3985ece8.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-33a72ba0094f3adf185d.js",
+      "component---src-pages-index-js-33a72ba0094f3adf185d.js.map"
+    ],
+    "path---": [
+      "path----5ffca9bc7a158c364c8a.js",
+      "path----5ffca9bc7a158c364c8a.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-b84dc952d929669935d8.js",
+      "component---src-templates-blog-post-js-b84dc952d929669935d8.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-18589eaf61ad85ad4c8e.js",
+      "component---src-layouts-index-js-18589eaf61ad85ad4c8e.js.map"
+    ],
+    "path---index": [
+      "path---index-0217b79eb30e555ad84f.js",
+      "path---index-0217b79eb30e555ad84f.js.map"
+    ],
+    "component---src-pages-my-files-js": [
+      "component---src-pages-my-files-js-b0a36c1c44972c0b05f8.js",
+      "component---src-pages-my-files-js-b0a36c1c44972c0b05f8.js.map"
+    ],
+    "path---my-files": [
+      "path---my-files-3b0dbb72c2d366c962ac.js",
+      "path---my-files-3b0dbb72c2d366c962ac.js.map"
+    ],
+    "commons": [
+      "commons-93dad60b3cb962dc9d77.js",
+      "commons-93dad60b3cb962dc9d77.js.map"
+    ],
+    "app": [
+      "app-c7fc9b1f2f4871c3931a.js",
+      "app-c7fc9b1f2f4871c3931a.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-43526c88decc0982f515.js",
+      "component---src-pages-about-js-43526c88decc0982f515.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}

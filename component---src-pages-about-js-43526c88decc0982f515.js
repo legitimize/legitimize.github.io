@@ -1,0 +1,2 @@
+webpackJsonp([0xefeaa6d1881d],{363:function(e,t,n){(function(l){"use strict";function a(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var u=n(6);a(u);t.default=function(){return l.createElement("div",null,l.createElement("h1",null,"About Legitimize "),l.createElement("p",null,"Legitimize aims to integrate git and legal documents. Git blame just took on a whole new level of meaning!"))},e.exports=t.default}).call(t,n(38))}});
+//# sourceMappingURL=component---src-pages-about-js-43526c88decc0982f515.js.map

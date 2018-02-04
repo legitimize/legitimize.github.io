@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{494:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{id:"/home/travis/build/legitimize/legitimize.github.io/src/pages/welcome-thalhalla.md absPath of file >>> MarkdownRemark",frontmatter:{title:"Welcome to Legitimize",date:"24 January, 2018"},fields:{slug:"/welcome-thalhalla/"},excerpt:"H3ll0 all and welcome to Legitimize, we'll start working on some of these projects over the next few weeks. Keep posted here for news."}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-0217b79eb30e555ad84f.js.map
