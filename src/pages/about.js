@@ -2,9 +2,10 @@ import React from "react";
 
 export default () => (
   <div>
-    <h1>About Thalhalla </h1>
+    <h1>About Legitimize </h1>
     <p>
-	Thalhalla Gaming is the best gaming platform in the world!
+  Legitimize aims to integrate git and legal documents.
+  Git blame just took on a whole new level of meaning!
     </p>
   </div>
 );

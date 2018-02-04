@@ -2,7 +2,7 @@ import React from "react"
 import g from "glamorous"
 import { css } from "glamor"
 import Link from "gatsby-link"
-import hammerTime from "./hammerTime.jpg";
+import legitLogo from "./legitLogo.png";
 
 import { rhythm } from "../utils/typography"
 
@@ -24,8 +24,8 @@ export default ({ children, data }) =>
           </Link>
         </div>
       </div>
-      <div className='hammerTime'>
-        <img src={hammerTime} height="242" alt="Thalhammer" className='Thor-center' />
+      <div className='legitLogo'>
+        <img src={legitLogo} height="242" alt="Legitimize" className='Thor-center' />
       </div>
       <div className='portal'>
         {children()}
