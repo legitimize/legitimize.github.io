@@ -33,7 +33,7 @@ deploy:
   keep-history: false
   local-dir: public
   target-branch: master
-  fqdn: legitimize.github.io
+  fqdn: legitblock.com
   verbose: true
   on:
     branch: gatsby

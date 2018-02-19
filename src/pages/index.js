@@ -10,7 +10,7 @@ export default ({ data }) => {
      <p>
       <g.H1 display={"inline-block"} >
         <div className="myHeader">
-	Welcome to Legitimize!
+	Welcome to Legitblock!
         </div>
       </g.H1>
      <p>

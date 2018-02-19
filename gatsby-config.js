@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Legitimize`,
+    title: `Legitblock`,
   },
   plugins: [
     {
